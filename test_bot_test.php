@@ -4,11 +4,11 @@
 
 	const TOKEN = '5881211467:AAEFE_9F0avuu2JV5naEdCrZ9eBG7BXxAv0';
 
-// вырвжвем ссылку ызаимодействия с ботом
+// выражаем ссылку взаимодействия с ботом
 
 	const BASE_URL = 'https://api.telegram.org/bot' . TOKEN . '/';
 	
-// заводим	функцию прибавляющую методы и параметры
+// заводим	функцию, прибавляющую методы и параметры
 
 	function sendRequest($method, $params = [])
 	{
